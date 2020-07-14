@@ -1,0 +1,132 @@
+:root{
+    --background_color_one: #364958;
+    --background_color_two: #FFFFFF;
+}
+html, body {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli','Arial', Helvetica, sans-serif;
+    background: var(--background_color_one);
+   
+}
+.wrapper{
+    width:100%;
+    max-width:1440;
+    margin: 0px;
+}
+.park_header{
+    background: var(--background_color_one);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    margin: 0 !important;
+    padding:0 !important;
+   
+}
+.packapp_scan{
+    color: var(--background_color_two);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+#email{
+    background: #F6F6F6;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 405px;
+    height: 50px;
+    text-align: start;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BDBDBD;  
+   
+}
+
+#notify{
+   
+    width: 154px;
+    height: 52px;
+    background: #87BBA2;
+    border-radius: 100px; 
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;   
+    flex: none;
+    align-self: center;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;        
+}
+
+#email_form {
+    margin-top: -280px !important ;
+    
+}
+
+.section1{
+    background: var(--background_color_two);
+    margin-top: 100px;
+    width: 100%;
+   
+    padding: 0 auto;
+    
+    
+}
+
+
+
+
+.pwm{    
+    font-size: 30px;
+    color: var(--background_color_two);
+    
+}
+
+.sub_head{
+    margin-top:100px;
+  
+}
+
+
+.intro{
+    color: var(--background_color_two);
+    font-size: 44px;
+    line-height: 55px;
+    font-style: normal;
+}
+
+.lugg_scan{
+    color: var(--background_color_two);
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;    
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;  
+    color: #000000;
+    padding: 10px;
+}
+
+.sub_title{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+   
+    color: #000000;
+}
+
